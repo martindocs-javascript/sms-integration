@@ -1,5 +1,9 @@
 # SMS Integration
 
+<p style="text-align:center;">
+    <img src="./client/src/assets/readme_img1.png" alt="sms integration"/>
+</p>
+
 ## Description
 
 This project aims to demonstrate the implementation of SMS integration with the MERN stack using Twilio. It showcases the integration of Twilio's API into a web application to enable sending text messages.
