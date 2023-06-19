@@ -1,0 +1,11 @@
+// Hide the label visually, but allow content to be read out to screen readers 
+@mixin hide-element{
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}

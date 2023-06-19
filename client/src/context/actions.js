@@ -1,0 +1,6 @@
+export const DISPLAY_ALERT = 'DISPLAY_ALERT';
+export const CLEAR_ALERT = 'CLEAR_ALERT';
+
+export const SEND_MSG_BEGIN = 'SEND_MSG_BEGIN';
+export const SEND_MSG_SUCCESS = 'SEND_MSG_SUCCESS';
+export const SEND_MSG_ERROR = 'SEND_MSG_ERROR';

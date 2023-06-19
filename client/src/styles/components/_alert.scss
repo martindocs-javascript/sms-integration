@@ -1,0 +1,18 @@
+.alert{
+    position: absolute;
+    left: 50%;
+    top: 17%;
+    transform: translate(-50%, -17%);
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    &-error {
+        color: $color-red;        
+    }
+
+    &-success {
+        color: $color-green;
+    }
+}

@@ -1,0 +1,18 @@
+.sms {
+    position: relative;
+    width: 100%;
+    height: 100vh;   
+    
+    &__container{
+        position: absolute;
+        border: 2px solid rgba($color-blue1, .5);
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        width: 20rem;
+        padding: 2rem 2.5rem 0 2rem;
+        background: rgba($color-blue1, 0.5);
+        border-radius: $border-radius;
+        box-shadow: .15rem .15rem .5rem rgba($color-blue2, .25), -.15rem -.15rem .5rem rgba($color-blue2, .25);
+    }
+}

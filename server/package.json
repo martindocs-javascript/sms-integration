@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Sending SMS using Node.js and Twilio package.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "build-client": "cd .. && cd client && npm run build",
+    "server": "nodemon server --ignore client",
+    "client": "cd .. && npm start --prefix client",
+    "start": "concurrently --kill-others-on-fail \"npm run server \" \" npm run client \""
+  },
+  "author": "Marcin Tatarski",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.9",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.2.0",
+    "twilio": "^4.11.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.1.0",
+    "nodemon": "^2.0.22"
+  }
+}

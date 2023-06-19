@@ -1,0 +1,20 @@
+.error-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+
+    &__title {
+        font-size: 2.5rem;
+    }
+
+    &__link {
+        color: $color-black
+    }
+
+    &__link:hover {
+        color: $color-blue2;
+    }
+}

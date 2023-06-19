@@ -1,0 +1,39 @@
+.button {    
+    
+    margin: 1rem 0 2rem;
+
+    &__submit, &__clear {        
+        width: 5rem;
+        padding: .35rem .5rem;
+        border: 0;
+        border-radius: $border-radius;
+        color: $color-white;
+        font-weight: 600;
+        letter-spacing: 1.75px;
+        text-transform: uppercase;
+    }   
+
+    &__submit {
+        background: rgba($color-green, .55);
+    }
+
+    &__clear {
+        background: rgba($color-red, .55);
+    }
+
+    &__submit:hover, &__clear:hover {
+        cursor: pointer;
+    }
+
+    &__submit:hover {
+        background: rgba($color-green, .75);
+    }
+
+    &__clear:hover {
+        background: rgba($color-red, .75);
+    }
+
+    &__submit{
+        margin-right: .5rem;
+    }
+}
